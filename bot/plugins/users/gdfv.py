@@ -12,7 +12,7 @@ from bot.logging import LOGGER
 from bot.modules.gdrive_direct import *
 from bot.modules.regex import *
 
-commands = ["clone", f"clone@{BOT_USERNAME}", "gd", f"gd@{BOT_USERNAME}"]
+commands = ["gd", f"gd@{BOT_USERNAME}"]
 
 
 @Client.on_message(filters.command(commands, **prefixes))
